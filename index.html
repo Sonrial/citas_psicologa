@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Psicológica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda Administrativa</h1>
+        <nav>
+            <button id="nav-dashboard">Dashboard</button>
+            <button id="nav-pacientes">Pacientes</button>
+            <button id="nav-citas">Citas</button>
+        </nav>
+    </header>
+
+    <main id="app-content">
+        <!-- El contenido se inyectará aquí con JS -->
+        <div id="loading">Cargando datos...</div>
+    </main>
+
+    <!-- Usamos módulos ES6 para importar Firebase de forma nativa en el navegador -->
+    <script type="module" src="js/db.js"></script>
+</body>
+</html>
